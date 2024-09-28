@@ -11,6 +11,7 @@ public class Rectangle extends Shape {
     public void calculateArea() {
         System.out.println(length * width);
     }
+
     @Override
     public void calculatePerimeter() {
         System.out.println(2 * (length + width));
